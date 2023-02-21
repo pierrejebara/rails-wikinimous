@@ -1,0 +1,14 @@
+<div class = "header">
+  <h2 id="logo">Wikipedia</h2>
+  <h3><%= link_to "Add new Article", new_article_path %></h3>
+</div>
+<div class="content">
+  <div class="individual">
+    <% @article.each do |article|  %>
+    <h1 class="title"><%= link_to article.title, article_path(article) %></h1>
+    <h3 id="content"><%= article.content %></h3>
+    <% end %>
+  </div>
+
+
+</div>

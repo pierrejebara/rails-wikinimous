@@ -13,3 +13,95 @@
  *= require_tree .
  *= require_self
  */
+
+ body{
+  margin: 0 !important
+ }
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F8F8F8;
+  margin-top: 0;
+  height: 50px;
+  border-width:0.2px;
+  border-style:solid;
+  border-color:#777;
+  width: 100%;
+  margin-left: 0;
+
+
+}
+div h2, h3 {
+  color: #777;
+
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.individual {
+  padding: 10px 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #22527C;
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+a:hover {
+  color: black;
+  transition: 0.5s;
+  text-decoration: underline;
+}
+
+#content {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 5px;
+}
+
+#logo {
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+#title {
+  color: #22527C;
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+.title-text-field {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.content-text-field {
+  width:400px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%
+}
+
+.title {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
